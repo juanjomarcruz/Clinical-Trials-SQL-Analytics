@@ -4,7 +4,7 @@
 
 ## Description
 
-In this challenging SQL project, I have extracted insights on clinical trials registered in the AACT database. The AACT database (Aggregate Analysis of ClinicalTrials.gov) is a publicly available relational database that contains all information - protocol and result data elements - about every study registered in ClinicalTrials.gov. The AACT database is considered the main source of information on clinical trials since 2005, when the Internal Commitee of Medical Journal Editors (ICMJE) announced that any clinical trial must be registered in the AATC before enrollment, otherwise it wouldn't be eligible for publication in major journals.
+In this challenging SQL project, I have extracted insights on clinical trials registered in the AACT (Aggregate Analysis of ClinicalTrials.gov) database, a publicly available relational database that contains all information - protocol and result data elements - about every study registered in ClinicalTrials.gov. The AACT database is considered the main source of information on clinical trials since 2005, when the Internal Commitee of Medical Journal Editors (ICMJE) announced that any clinical trial must be registered in the AATC before enrollment, otherwise it wouldn't be eligible for publication in major journals.
 
 The project is organized into five analytical themes, each addressing a set of relevant business questions:
 
@@ -18,7 +18,23 @@ The analysis focuses on the protocol-level data only, excluding outcome analyses
 
 ## Objective
 
-The aim of this project is to have a more deep understading of protocol-related trends in clinical trials conducted all over the world. For this reason, SQL queries were designed in PostgreSQL and executed from the PgAdmin4 client.
+The aim of this project is to have a more deep understading of protocol-related trends in clinical trials conducted all over the world.
+
+## Tools & Skills
+
+The tools that I have used in this project are the following:
+
+- PgAdmin4: the GUI client from which SQL queries are sent to the PostgreSQL Server.
+- SQL: the language to design queries to the database.
+- PostgreSQL: the database management system (Server).
+
+In addition, this project demonstrates my intermediate-level SQL skills and my ability to apply them in order to extract valuable information from real-world data. Some of these skills are:
+
+- Beginner functions: Select, From, Group by, Order By, Count().
+- Beginner filtering: Where, Having, Limit, In, Between, Is, Not, Like, Ilike,...
+- Beginner structures: Joins, Subqueries.
+- Intermediate functions: Case When, Extract Year/Month/Day From, Split_, Window functions: Lag(), Over(), Partition by(), Order by(),...
+- Intermediate stuctures: Common Table Expressions (CTE), Temporary tables, Views.
 
 ## Structure
 
@@ -46,4 +62,18 @@ Clinical_Trials_SQL_Analytics/
 └── README.md
 
 ```
-hola
+
+## Which steps did I follow?
+
+### 1. Documentation
+
+The first step was to understand the database: purpose, structure, definitions and limitations. I managed to gather all this information from the AATC website (Check: https://aact.ctti-clinicaltrials.org/).
+
+#### 1.1 Database purpose
+
+Data collection purpose is to
+
+
+
+
+
